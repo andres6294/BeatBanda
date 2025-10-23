@@ -369,6 +369,8 @@ footer .container{
     #final {
         padding-bottom: 20px;
     }
-  
+
+   #footer .container{
+    height: 20px;
 }
 
