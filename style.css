@@ -186,7 +186,7 @@ header a:hover{
     text-align: center;
     background-color: rgb(30,30, 30);
     color: white;
-    height: 100vh;
+    height: 90vh;
 }
 
 #final h2{
@@ -365,6 +365,10 @@ footer .container{
   #caracteristicas .container {
     padding: 100px 12px;
   }
+
+    #final {
+        padding-bottom: 20px;
+    }
   
 }
 
