@@ -207,7 +207,7 @@ header a:hover{
    justify-content: left;
    align-items: left;
    text-align: left;
-   
+    padding-bottom: 50px;
 }
 
 .whatsapp-button {
