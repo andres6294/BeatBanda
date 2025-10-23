@@ -12,9 +12,9 @@ body{
     margin: 0;
 }
 
-h1{ font-size: 3.2em;}
-h2{ font-size: 2.4em;}
-h3{ font-size: 1.7em;}
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
@@ -207,7 +207,7 @@ header a:hover{
    justify-content: left;
    align-items: left;
    text-align: left;
-    padding-bottom: 50px;
+   padding-bottom: 50px;   
 }
 
 .whatsapp-button {
@@ -261,33 +261,26 @@ header a:hover{
 
 footer{
     background-color: rgb(230, 230, 230);
-    height: 30px;
-    font-size: 1em;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
 }
 
 footer .container{
-    height: 30px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-
-#final {
-        padding-bottom: 20px;
-    }
 
 @media (min-width: 720px){
     header{
         position: fixed;
         width: 100%;
     }
-
-    h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
 
     header .container{
         flex-direction: row;
@@ -372,13 +365,6 @@ li{ font-size: 1.25em;}
   #caracteristicas .container {
     padding: 100px 12px;
   }
-    footer{
-        font-size: 1.5em;
-    }
-    footer p{
-    margin: 0;
-    padding: 15px;
-    color: rgb(100, 100, 100);
+  
 }
-}
-    
+
