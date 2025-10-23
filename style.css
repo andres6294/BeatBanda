@@ -261,6 +261,8 @@ header a:hover{
 
 footer{
     background-color: rgb(230, 230, 230);
+    height: 50px;
+    font-size: 0.1em;
 }
 
 footer .container{
@@ -273,11 +275,6 @@ footer .container{
 #final {
         padding-bottom: 20px;
     }
-
-   #footer{
-    height: 50px;
-    font-size: 0.1em;
-}
 
 @media (min-width: 720px){
     header{
@@ -379,5 +376,6 @@ li{ font-size: 1.25em;}
     margin: 0;
     padding: 12px;
     color: rgb(100, 100, 100);
+}
 }
     
